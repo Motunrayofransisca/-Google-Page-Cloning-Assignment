@@ -1,0 +1,167 @@
+body {
+  box-sizing: border-box;
+  font-size: 13px;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
+
+a:visited,
+a:active{
+  color: blue;
+}
+a:hover {
+  color: rgba(0,4,89);
+}
+
+header {
+  display: inline-block;
+  top: 0;
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+header ul {
+  list-style: none;
+  float: right;
+  line-height: 150%;
+}
+
+header li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.header-section {
+  display: inline;
+  
+}
+.header-section:hover {
+  text-decoration: underline
+}
+
+#signInButton {
+  padding: 5px 8px 5px 8px;
+  background: blue;
+  color: white;
+  text-decoration: none;
+}
+
+ #signInButton:hover {
+  text-decoration: none;
+}
+
+.googleAppicon {
+	background-image: url('menu-icon.png');
+	display: inline-block;
+    outline: none;
+    vertical-align: middle;
+	box-sizing: border-box;
+    height: 17px;
+    width: 17px;
+    padding: 2px;
+}
+
+input[type="text"] {
+    background-color: white;
+    background-image: url('googleMic.png');
+    background-position: 96%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    line-height: 34px;
+    font-size: 16px;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-top: 6px;
+    width: 100%;
+    border-style: none;
+
+}
+
+#search-area-section{
+	width: 584px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+    outline: none;
+}
+
+#search-area-section:hover {
+	box-shadow: 0 3px 5px #d9d9d9;
+}
+
+#button-section {
+	margin-top: 20px;
+}
+
+input[type="submit"] {
+	height: 36px;
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+	color: #222;
+	border: 1px solid #ccc;
+}
+
+
+.text-section {
+	padding: 10px;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #f2f2f2;
+  color: rgba(0, 0, 0, 0.54);
+}
+.footer a {
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: rgba(0, 0, 0, 0.808);
+}
+#topFooter {
+  padding: 10px 10px 10px 20px;
+  border-bottom: 0.25px solid rgba(0, 0, 0, 0.54);
+}
+#leftFooter {
+  display: inline-block;
+  padding: 10px 10px 10px 20px;
+  margin: 0;
+}
+#leftFooter li {
+  display: inline;
+  margin-right: 10px;
+}
+
+#rightFooter {
+  display: inline-block;
+  padding: 10px 20px 10px 0;
+  margin: 0;
+  float: right;
+}
+#rightFooter li {
+  display: inline;
+  margin-left: 10px;
+}
